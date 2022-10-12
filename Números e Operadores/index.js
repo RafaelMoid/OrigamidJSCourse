@@ -15,8 +15,7 @@ console.log(+'200' + 50);
 
 // Incremente o número 5 e retorne o seu valor incrementado
 var number = 5;
-console.log(number++);
-console.log(number);
+console.log(++number);
 
 // Como dividir o peso por 2?
 var numero = '80';
