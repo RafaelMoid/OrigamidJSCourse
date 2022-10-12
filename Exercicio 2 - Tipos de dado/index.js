@@ -37,7 +37,7 @@ console.log(fraseDeck2);
 var commander ="Wilhelt, the Rotcleaver";
 
 // Declare uma variável contendo um número dentro de uma string
-var cmc = 2+"UB";
+var cmc = "2UB";
 
 // Declare uma variável com a sua idade
 var idade = 32;
