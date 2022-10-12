@@ -1,20 +1,22 @@
-// Declarar uma variável com o seu nome
-var nome = 'Rafael';
+// TIPOS DE VARIAVEIS
+var nome = 'Rafael' ; //String
+var idade = 32 ; //Number
+var possuiFaculdade = true; //Boolean
+var time; //undefined
+var comida = null ; //Null
+var simbolo = Symbol() ; //Simbolo
+var novoObjeto= {} ; //Objeto
 
-// Declarar uma variável com a sua idade
-var idade = 32;
+// Como descobrir o time de dado
+console.log(typeof idade);
 
-// Declarar uma variável com a sua comida favorita e não atribuir valor
-var comidaFavorita;
+//Somando/Concatenando Strings
+var sobrenome ="Varela";
+var nomeCompleto = nome +  ' ' + sobrenome;
+console.log(nomeCompleto);
+console.log(typeof nome);
+console.log(typeof nomeCompleto);
 
-// Atribuir valor a sua comida favorita
-comidaFavorita = 'Pizza';
-
-// Declarar 5 variáveis diferentes sem valores
-var commander,
-    deck,
-    anime,
-    filho,
-    esposa;
-
-    console.log(nome, idade, comidaFavorita, commander, deck, anime, filho, esposa);
+// Como fazer com que "aspas duplas" ou 'aspas simples'
+// sejam validas em uma string
+console.log('Basta fazer com está no \"VsCode\" na linha 22');
