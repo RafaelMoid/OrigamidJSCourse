@@ -31,3 +31,25 @@ console.log(fraseDeck);
 // Template String
 var fraseDeck2 = `Um deck de EDH contém ${cardsEDH} cartas.`;
 console.log(fraseDeck2);
+
+// Exercicio da aula 2
+// Declare uma variável contendo uma string
+var commander ="Wilhelt, the Rotcleaver";
+
+// Declare uma variável contendo um número dentro de uma string
+var cmc = 2+"UB";
+
+// Declare uma variável com a sua idade
+var idade = 32;
+
+// Declare duas variáveis, uma com seu nome
+// e outra com seu sobrenome e some as mesmas
+var edhCommander = commander + " " + cmc;
+console.log(edhCommander);
+
+// Coloque a seguinte frase em uma variável: It's time
+var fraseTeste = 'It\'s time';
+console.log(fraseTeste);
+
+// Verifique o tipo da variável que contém o seu nome
+console.log(typeof edhCommander);
