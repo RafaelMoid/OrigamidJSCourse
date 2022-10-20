@@ -34,3 +34,6 @@ console.log(corFavorita('azul'));
 console.log(corFavorita('preto'));
 console.log(corFavorita('vermelho'));
 console.log(corFavorita(''));
+
+
+// Argumentos também podem ser funções
