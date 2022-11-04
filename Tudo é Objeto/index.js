@@ -1,50 +1,17 @@
-// Crie um objeto com os seus dados pessoais
-var rafael = {
-  nome: 'Rafael',
-  sobrenome:'Varela',
-  filho: 'Leonardo Varela',
-  esposa: 'Deborah Viegas',
-  idade: 32,
-  profissao: 'programador frontend',
-  desejo: 'morar em pais de primeiro mundo',
-}
-// Deve possui pelo menos duas propriedades nome e sobrenome
-//Feito
+// nomeie 3 propriedades ou métodos de strings
+var nome ="Rafael";
+fixed
+lenght
+slice
 
-// Crie um método no objeto anterior, que mostre o seu nome completo
-rafael.nomeCompleto = function(){ 
-  return `$[this.nome] $[this.sobrenome]`; 
-}
+// nomeie 5 propriedades ou métodos de elementos do DOM
+var btn = document.querySelector('.btn');
+//innerHTML
+//id
+//animate
+//after
+//addEventListener
+console.log(btn);
 
-
-// Modifique o valor da propriedade preco para 3000
-var carro = {
-  preco: 1000,
-  portas: 4,
-  marca: 'Audi',
-}
-
-carro.preco = 3000;
-
-// Crie um objeto de um cachorro que represente um labrador,
-// preto com 10 anos, que late ao ver um homem
-var ralph = {
-  raca:'labrador',
-  cor:'preto',
-  idade: '10 anos',
-  latir(pessoa){
-    if(pessoa === 'homem'){
-      return 'Au Au Au'
-    } else {
-      return'nada'
-    }
-  },
-}
-
-
-var evento = {
-  recorrente: true,
-  duracao: 30,
-  titulo: "Evento X",
-  vamoFicarRico: true,
-};
+// busque na web um objeto (método) capaz de interagir com o clipboard, 
+// clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
